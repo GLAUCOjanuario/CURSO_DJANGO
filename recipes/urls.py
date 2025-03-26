@@ -1,5 +1,5 @@
 from django.urls import path
-from django.views import contato, home, sobre
+from recipes.views import home, contato, sobre  # ✅ certo
 
 
 # Register your models here.
